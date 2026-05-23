@@ -1,0 +1,2 @@
+# classtrack-privacy
+PRIVACY POLICY
