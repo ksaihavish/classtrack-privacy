@@ -247,7 +247,7 @@
   <!-- Date bar -->
   <div class="date-bar">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-    Effective Date: <span>May 24, 2026</span> &nbsp;&bull;&nbsp; Last Updated: <span>October 2, 2026</span>
+    Effective Date: <span>May 24, 2026</span> &nbsp;&bull;&nbsp; Last Updated: <span>October 3, 2026</span>
   </div>
 
   <!-- ── Table of Contents ── -->
@@ -287,8 +287,9 @@
       <strong>Plain language summary:</strong> Everything you enter in ClassTrack &mdash; your timetable, attendance,
       marks and settings &mdash; is stored only on your own device. We have no accounts, no servers and no ads, and we
       never receive, sell or share your data. The only data that leaves your phone is limited, anonymous technical
-      diagnostics that Google&rsquo;s ML Kit text-recognition library (used by the timetable scanner) sends to Google.
-      It never includes your images, your timetable or your attendance. See Sections 2.4 and 4.
+      diagnostics that Google&rsquo;s ML Kit text-recognition library (used by the timetable scanner) sends to Google,
+      and the routine check Google Play makes to see whether a newer version of the App is available.
+      Neither ever includes your images, your timetable or your attendance. See Sections 2.4 and 4.
     </div>
   </section>
 
@@ -433,6 +434,23 @@
           <tr><td>Technical data sent</td><td>The diagnostics listed in Section 2.4, sent to Google for diagnostics and usage analytics. Google states that it encrypts this data in transit (HTTPS) and does not transfer it to third parties</td></tr>
           <tr><td>Model download</td><td>Google Play services may download the text-recognition model to your device</td></tr>
           <tr><td>More information</td><td><a href="https://developers.google.com/ml-kit/android-data-disclosure" target="_blank" rel="noopener">ML Kit data disclosure</a> &bull; <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Google Play In-App Updates</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Attribute</th><th>Details</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Provider</td><td>Google LLC, through the Google Play Store app on your device</td></tr>
+          <tr><td>Purpose</td><td>Checking whether a newer version of ClassTrack is available, so the App can offer to update</td></tr>
+          <tr><td>Your data</td><td>Not shared &mdash; nothing you enter in ClassTrack is involved</td></tr>
+          <tr><td>Technical data</td><td>Google Play uses device metadata, the App&rsquo;s version and the list of installed app modules to decide whether an update is available and how large it is. Google states that this data is encrypted, not transferred to third parties, and deleted after a fixed retention period</td></tr>
+          <tr><td>When it happens</td><td>When you open the App, only if it was installed from Google Play. We never receive this data</td></tr>
+          <tr><td>More information</td><td><a href="https://developer.android.com/guide/playcore/in-app-updates" target="_blank" rel="noopener">In-app updates data disclosure</a> &bull; <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></td></tr>
         </tbody>
       </table>
     </div>
